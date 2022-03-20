@@ -1,3 +1,50 @@
 .hidden {
   display: none;
 }
+
+.bg {
+  position: relative;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.img-cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.content1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+.content2 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+.content3 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
